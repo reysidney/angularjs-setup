@@ -1,0 +1,17 @@
+{
+  "name": "mean-setup",
+  "description": "MEAN Fullstack framework",
+  "main": "server.js",
+  "authors": [
+    "reysidney <rscarredo@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/reysidney/mean-setup",
+  "private": true,
+  "devDependencies": {
+    "jquery": "~2.1.1",
+    "bootstrap-sass": ">=3.3.0",
+    "font-awesome": "font-awesome#^4.0.0",
+    "angular": "^1.6.9"
+  }
+}

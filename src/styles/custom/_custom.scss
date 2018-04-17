@@ -1,0 +1,98 @@
+.navbar{
+    a {
+        color: set-text-color($main-color);
+    }
+    .fa {
+        font-size: 18px;
+    }
+}
+
+.showcase {
+    height: 600px;
+    padding: 30px 0;
+
+    h1 {
+        font-size: 60px;
+    }
+
+    .container {
+        background: #fff;
+        opacity: 0.9;
+        padding: 20px 30px 30px 30px;
+        margin-top: 50px;
+        border-radius: 10px;
+    }
+}
+
+.showcase, .title-bar {
+    padding: 10px;
+    margin-top: 40px;
+    background: url('../img/bg.jpeg') no-repeat 0 -100px;
+    font-size: 30px;
+}
+
+.title-bar {
+    border-bottom: 4px solid $main-color;
+    color:  set-text-color($main-color);
+}
+
+.main {
+    padding-top: 30px;
+}
+
+.section-a {
+    padding: 30px 0;
+    text-align: center;
+    background: $main-color;
+    color: set-text-color($main-color);
+
+    .fa {
+        font-size: $icon-size;
+    }
+}
+
+.section-b {
+    padding: 30px 0;
+    background: $gray-light;
+
+    img {
+        width: 100%;
+    }
+
+    .panel-heading {
+        cursor: pointer;
+    }
+}
+
+.section-c {
+    padding: 60px;
+    text-align: center;
+    background: $main-color;
+    color: set-text-color($main-color);
+
+    .btn-primary {
+        background: set-background-color($main-color, 10%);
+    }
+
+    .btn-primary:hover {
+        background: set-background-color(set-background-color($main-color, 10%), 10%);
+        color: set-text-color-hover(set-text-color($main-color));
+    }
+}
+
+footer {
+    padding: 15px 0;
+    background: set-background-color($main-color, 10%);
+    color: set-text-color($main-color);
+    text-align: center;
+
+    p {
+        margin-bottom: 0px;
+    }
+}
+
+.panel-heading {
+    h4 {
+        color: set-text-color($main-color);
+    }
+}

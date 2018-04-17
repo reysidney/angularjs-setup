@@ -1,0 +1,6 @@
+node_modules
+bower_components
+dist
+*.logs
+package-*.json
+.vscode
